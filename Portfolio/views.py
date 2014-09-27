@@ -15,3 +15,7 @@ def project(request, project_id):
     context = {}
     context['project'] = project
     return render(request, 'Portfolio/project.html', context)
+
+def helloWorld(request):
+
+    return HttpResponse("Hello World")
