@@ -10,3 +10,5 @@ class ProjectAdmin(admin.ModelAdmin):
     inlines = [PortfolioImageInline]
 
 admin.site.register(Project, ProjectAdmin)
+
+# Hello little buddy
