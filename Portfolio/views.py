@@ -18,9 +18,5 @@ def project(request, project_id):
 
 def helloWorld(request):
 
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello fellow kids")
 
- def scary(request):
- {
- 	return HttRespons("Boo!")
- }
